@@ -1,9 +1,10 @@
 #include "engine.h"
 
+
 int main()
 {
-    Engine engine(640, 480, "OpenGL preset by Guylian Gilsing");
-
+    Engine engine(640, 480, "Cube Render");
+    
     if(!engine.Initialize())
     {
         std::cout << std::endl << "Press any key to close program..." << std::endl;

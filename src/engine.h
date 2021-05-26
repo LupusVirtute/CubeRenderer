@@ -1,19 +1,18 @@
-// System libs.
+#ifndef ENGINE_H
+#define ENGINE_H
 #include <iostream>
 
-// Include libs.
 #include <glad\glad.h>
 #include <GLFW\glfw3.h>
 
 #include <glm/glm.hpp>
 
-// Header includes.
-// TODO: Include your headers here...
+#include "3D/OpenGL/Shaders/shader.h"
+#include "3D/OpenGL/Manager/ShaderManager.h"
+#include "3D/OpenGL/Manager/ModelManager.h"
 
-// Function prototypes.
 void WindowResize(GLFWwindow* a_window, int a_width, int a_height);
 
-// Classes.
 class Engine
 {
 public:
@@ -23,12 +22,12 @@ public:
 private:
     int screenWidth = 800;
     int screenHeight = 600;
-
+    ShaderManager shaderManager;
+    ModelManager modelManager;
     const char* windowName = "Default Name";
 
     GLFWwindow* window;
 
-    // Game loop.
     float lastFrameTime = 0.0f;
     glm::vec3 clearColor = glm::vec3(0.0f, 0.0f, 0.0f);
 
@@ -41,6 +40,6 @@ public:
     void ProcessInput(GLFWwindow* a_window);
 
 private:
-    // OpenGL
     void SetupOpenGlRendering();
 };
+#endif

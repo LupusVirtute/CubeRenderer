@@ -14,8 +14,17 @@
                     "${workspaceRoot}/dependencies/GLAD/src/glad.c",
 
                     // Include .cpp files here (These are for .h file code)
-                    "${workspaceRoot}/src/shader.cpp",
                     "${workspaceRoot}/src/engine.cpp",
+                    "${workspaceRoot}/src/main.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Manager/ModelManager.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Manager/ShaderManager.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Objects/EBO.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Objects/Model.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Objects/VAO.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Objects/VBO.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Shaders/shader.cpp",
+                    "${workspaceRoot}/src/3D/Units/Vertex.cpp",
+                    
                     
                     "-g",
                     "--std=c++17",
@@ -37,8 +46,16 @@
                     "${workspaceRoot}/dependencies/GLAD/src/glad.c",
 
                     // Include .cpp files here (These are for .h file code)
-                    "${workspaceRoot}/src/shader.cpp",
                     "${workspaceRoot}/src/engine.cpp",
+                    "${workspaceRoot}/src/main.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Manager/ModelManager.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Manager/ShaderManager.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Objects/EBO.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Objects/Model.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Objects/VAO.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Objects/VBO.cpp",
+                    "${workspaceRoot}/src/3D/OpenGL/Shaders/shader.cpp",
+                    "${workspaceRoot}/src/3D/Units/Vertex.cpp",
                     
                     "-g",
                     "--std=c++17",
