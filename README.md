@@ -2,6 +2,7 @@
 Project for the teacher 
 Rendering a cube using modern OpenGL with VAO's and VBO's
 Code developed using OOP development  
+Code developed with little help from learnopengl.com
 ## Used dependencies
 - GLFW
 - GLM
