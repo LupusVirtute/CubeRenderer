@@ -12,7 +12,7 @@ Code developed using OOP development
 https://github.com/GuylianGilsing/Visual-Studio-Code-OpenGL-Setup  
 Because i didn't want to do anything to do with the setup of OpenGL due to a lot of outdated tutorials and other things that wouldn't make this easy
 ## Controls
-W,A,S,D - front,back,left,right
-F2 - WireFrame
-F3 - Enable mouse rotation
-Mouse - Control via mouse rotation
+W,A,S,D - front,back,left,right  
+F2 - WireFrame  
+F3 - Enable mouse rotation  
+Mouse - Control via mouse rotation  
