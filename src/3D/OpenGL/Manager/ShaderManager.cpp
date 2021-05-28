@@ -29,8 +29,8 @@ Shader ShaderManager::GetDefault(){
 ShaderManager::ShaderManager(){
     // Loads Default Shaders
     auto shader = Shader();
-    shader.setFragmentShader(   "src/shaders/basicFragmentShader.glsl");
-    shader.setVertexShader(     "src/shaders/basicVertexShader.glsl");
+    shader.setFragmentShader(   "basicFragmentShader.glsl");
+    shader.setVertexShader(     "basicVertexShader.glsl");
     shader.compile();
     this->AddShader("DEFAULT",shader);
 }
